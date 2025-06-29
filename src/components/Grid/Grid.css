@@ -1,0 +1,27 @@
+.heading{
+  text-align: center;
+  color:white;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.grid {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.reset {
+    color: black;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    border: none;
+}
