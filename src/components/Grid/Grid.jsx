@@ -34,7 +34,7 @@ function Grid({numberOfCards}){
         if(isWinner(turn ? 'O' : 'X')){
             setWinner(turn);
             console.log(winner);
-            toast(`Congratulation ${turn ? 'O': 'X'} win the game!!`)
+            toast.success(`Congratulation ${turn ? 'O': 'X'} win the game!!`)
         }
         setTurn(!turn);
         setBoard([...board]);
